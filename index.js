@@ -22,3 +22,19 @@ console.log(`Now listening to Server: http://localhost:${PORT}`);
 app.get('/', (req, res) => {
     res.render("main");
 });
+
+app.get('/about.hbs', (req, res) => {
+    res.render("about", {title:'About Me'});
+});
+
+app.get('/contact.hbs', (req, res) => {
+    res.render("contact");
+});
+
+app.get('/portfolio.hbs', (req, res) => {
+    res.render("portfolio");
+});
+
+app.get('/*', (req, res) => {
+    res.render("notfound");
+});
