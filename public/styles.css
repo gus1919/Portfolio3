@@ -32262,6 +32262,17 @@ video {
   content: none;
 }
 
+.card {
+  display: grid;
+  max-width: 32rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  overflow: hidden;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(124, 58, 237, var(--tw-bg-opacity));
+  text-align: center;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
