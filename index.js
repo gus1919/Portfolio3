@@ -20,7 +20,7 @@ console.log(`Now listening to Server: http://localhost:${PORT}`);
 
 //landing page
 app.get('/', (req, res) => {
-    res.render("main");
+    res.render("main", {title: 'Welcome to My Portfolio!'});
 });
 
 app.get('/about.hbs', (req, res) => {
@@ -28,11 +28,11 @@ app.get('/about.hbs', (req, res) => {
 });
 
 app.get('/contact.hbs', (req, res) => {
-    res.render("contact");
+    res.render("contact", {title:'Contact Information'});
 });
 
 app.get('/portfolio.hbs', (req, res) => {
-    res.render("portfolio");
+    res.render("portfolio", {title: 'Projects'});
 });
 
 app.get('/*', (req, res) => {
