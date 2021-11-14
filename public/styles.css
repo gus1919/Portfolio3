@@ -32273,6 +32273,19 @@ video {
   text-align: center;
 }
 
+.contact {
+  display: grid;
+  max-width: 32rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  overflow: hidden;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+  text-align: center;
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
