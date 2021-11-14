@@ -25,7 +25,10 @@ A portfolio to highlight my work and resume.
   
   >Here is a link to the github repository: https://github.com/gus1919/portfolio3
 
-
+![portfolioHome](https://user-images.githubusercontent.com/86876335/141689485-c3370be5-c2c7-46a4-bcae-d5843fa564f5.png)
+![portfolioAbout](https://user-images.githubusercontent.com/86876335/141689484-ff57cfb6-54d9-40d6-8a24-82e66c9a1e82.png)
+![portfolioContact](https://user-images.githubusercontent.com/86876335/141689492-4d106372-f2f1-411c-9cfd-be4c4100ed29.png)
+![portfolioProjects](https://user-images.githubusercontent.com/86876335/141689490-6df27c53-ad7c-4668-bc51-c388bfa23f3b.png)
 
   ---
   ## Contributors
