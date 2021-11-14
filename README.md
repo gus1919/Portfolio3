@@ -21,7 +21,7 @@ A portfolio to highlight my work and resume.
   ---
   ## Use
 
-  >Here is a link to the deployed application: 
+  >Here is a link to the deployed application: https://justinoeters.herokuapp.com/
   
   >Here is a link to the github repository: https://github.com/gus1919/portfolio3
 
